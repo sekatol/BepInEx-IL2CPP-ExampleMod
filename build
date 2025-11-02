@@ -1,0 +1,2 @@
+#!/bin/bash
+dotnet build && cp bin/Debug/netcoreapp6.0/<enter your output filename here>.dll ../BepInEx/plugins/ && wine ../<enter game filename here>.exe
